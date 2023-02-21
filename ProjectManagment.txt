@@ -1,0 +1,33 @@
+Manejo Gestion - Proyectos
+
+GestioN , Distribucion de Trareas, y Plataformas colaborativas. 
+
+HUman FActors
+Industrial Desing
+Engineering
+Manufacturing
+Regulatory and Quality Assurance
+Legal (Ethics)
+Marketing
+
+
+PROJECT OBJECTIVE STATEMENT: Un documento que s ele ahace entrega al inversor para que conozca el proyeco.
+- Scope definition: Que van a hacer; COmo en un informe de lAB O PORYECTO DE INVESTIGACION,se debe responder: Que, Como , Cuando, Queines, DOnde, POr Que Para qué. 
+					Qué: El objetivo ( Voy a hacer un biorreactor de tales caracteristicas)
+					Cómo: La metodología, como lo van a hacer, 
+					Por qúpe:Justiciacion
+					Para qué: Justiciacion
+
+					QUE VA HA HACER, COMO LO VA  A HACER Y JUSTIFIQUE. 
+- EVALUAR OS RIESGOS: fALTA DE DINERO, FALTA DE TIEMPO....
+
+- Presupuestos y FInanciación
+
+
+DIAGRAMA DE GANTT:
+GanttProject
+
+acata de compromiso
+statment
+los formatos llenados para mostrar que van a hacer
+la invesitgacion hecha. 
