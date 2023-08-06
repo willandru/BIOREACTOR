@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="BIOREACTOR" company="Pontificia Universidada Javeriana" webLink="http://" view-date="2023-02-01" view-index="0" gantt-divider-location="406" resource-divider-location="300" version="3.2.3240" locale="en_US">
+    <description><![CDATA[DISEÑO Y CONSTRUCCIÓN DE UN PROTOTIPO DE BIORREACTOR DE BAJO COSTO PARA CULTIVO DE BACTERIAS.
+Objetivo: Siembra y aislamiento de bacterias para uso en biotecnología.
+Requisitos: Recinto hermético que permita control de variables de humedad y temperatura.]]></description>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="222" order="0"/>
+        <field id="tpd4" name="Begin date" width="84" order="1"/>
+        <field id="tpd5" name="End date" width="84" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#cc9900 #cc0000 #ff0000 #ff9900]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Identificación NECESIDAD" color="#8cb6ce" meeting="false" start="2023-02-27" duration="2" complete="0" thirdDate="2023-02-27" thirdDate-constraint="0" expand="true"/>
+        <task id="1" name="Diseño Inicial" color="#ff9900" meeting="false" start="2023-03-01" duration="12" complete="12" thirdDate="2023-02-27" thirdDate-constraint="0" expand="true">
+            <task id="2" name="Diagramas de Procesos: Subsistemas del producto" color="#cc9900" meeting="false" start="2023-03-01" duration="5" complete="15" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Diagramas de proceso: diagramas en ingeniería para el entendimiento
+de los subsistemas del producto/servicio.
+
+Se deben definir todos los subsistemas del bioreactor como sistema de temperatura, sistema hermético..]]></notes>
+            </task>
+            <task id="5" name="Visitas / Videos / Entrevistas" color="#cc9900" meeting="false" start="2023-03-01" duration="7" complete="25" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[LA IDEA es obtener el mayor entendimiento del problema que se busca solucionar para generar el diseño inicial. Se deben ver videos de bioreactores, teoría, prácticas de laboratorio y más imporatnte observar el manejo, diseño y manipulación del operario con los diferentes tipos de bioreactores. 
+
+INdentificar las partes del bioreactor como lo es el recipiente de reacción, los sellos herméticos y la tapa, las entradas de los sensores, el sistema de calefacción, el impeler, el CONTROLADOR.
+
+Observar como hacen los bioreactores para realizar el control de temperatura, observar el controlador y buscar todas las especificaciones posibles.
+
+Averiguar los costos relacionados con la adquisición y operación del bioreactor.
+
+Observar como son los sellos hermeticos para la entrada de sensores y para el cierre del bioreactor. 
+
+Identificar los materiales que se utilizan. ]]></notes>
+            </task>
+            <task id="3" name="Proponer ideas de Diseño" color="#cc9900" meeting="false" start="2023-03-06" duration="2" complete="0" thirdDate="2023-02-25" thirdDate-constraint="0" priority="4" expand="true">
+                <notes><![CDATA[Basandose en la identificación de subsistemas, proponer ideas de Bioreactor que integre dichos subsistemas y busque optimizar el diseño.
+
+Utilizar Lápiz y papel. Hacer dibujos de las ideas de diseño, hacer bocetos, hacer dibujos con medidas aproximadas y proporcionales. Describir los subprocesos necesarios e ilustrarlos. 
+]]></notes>
+            </task>
+            <task id="4" name="RETROALIMENTACION DEL DISEÑO" color="#cc9900" meeting="false" start="2023-03-07" duration="3" complete="0" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Una vez los 3 Bioingeneiros hemos  seleccionada una propuesta inicial de diseño:
+
+Buscar investigadores del área de biotecnología y presentarles las ideas:
+- Buscar retroalimentación con ingenieros(Bioingenieros, Electronicos, Mecanicos, Control, ...).
+- Buscar retroalimentación con cientificos(Microbiologos, Bacteriologos, Biologos,...).
+
+La idea es analizar las diferentes opiniones de la ayuda encontrada, para REAJUSTAR la propeusta inicial del EQUIPO.]]></notes>
+            </task>
+            <task id="12" name="Modelado 3D" color="#cc9900" meeting="false" start="2023-03-10" duration="3" complete="0" thirdDate="2023-02-26" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="6" name="Sistema de Control de Temperatura" color="#ff0000" meeting="false" start="2023-03-13" duration="12" complete="8" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true">
+            <task id="7" name="Diseño Circuito" color="#cc0000" meeting="false" start="2023-03-13" duration="3" complete="40" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true"/>
+            <task id="8" name="RETROALIMENTACIÓN DISEÑO" color="#cc0000" meeting="false" start="2023-03-15" duration="3" complete="0" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true"/>
+            <task id="9" name="Prototipo Circuito" color="#cc0000" meeting="false" start="2023-03-16" duration="4" complete="0" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true"/>
+            <task id="10" name="Codigo Controlador" color="#cc0000" meeting="false" start="2023-03-20" duration="5" complete="10" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true"/>
+            <task id="11" name="Pruebas Sistema" color="#cc0000" meeting="false" start="2023-03-20" duration="5" complete="0" thirdDate="2023-02-25" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
